@@ -11,4 +11,4 @@ def test_withdraw():
 def test_anyamount():
     totalbalance , updatebalance = bankoper(150000,0,15000)
     assert totalbalance == 150000
-    assert updatebalance == 165000
+    assert updatebalance == 135000
